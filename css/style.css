@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}*/
+
+h1{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 1.875rem;
+}
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+/*.medicos{
+    height: 18.75rem;
+    position: absolute;
+    right: 20px;
+}*/
+.header-index {
+    display: flex;
+    background-image: url(../assets/header.jpg);
+    padding: .625rem 1.875rem;
+    gap: 3.125rem;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 18.75rem;
+}
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contenedor-nav{
+    display: flex;
+    width: 100%;
+    height: 4.25rem;
+    gap: 20rem;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+.contenedor-nav a{
+    width: 9.375rem;
+    height: 9.375rem;
+}
+.contenedor-nav a img{
+    width: 9.375rem;
+    height: 9.375rem;
+}
+.contenedor-nav .navbar li{
+    list-style: none;
+}
+.div-medicos{
+    display: flex;
+    justify-content: flex-end;
+}
+.medicos{
+    height: 13.875rem;
+}
+
+@media (max-width: 1025px) {
+    .header-index {
+        background-image: url(../assets/header.jpg);
+    }
+
+}
+
+/*.header-index{
+    background-image: url(../assets/header.jpg);
+    width: 100%;
+    height: 18.75rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*#logo-principal{
+    width: 100%;
+    height: 70%;
+}
