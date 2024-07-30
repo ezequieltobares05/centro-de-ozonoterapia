@@ -28,16 +28,9 @@ p{
     font-weight: 400;
     font-style: normal;  
 }
-/*.medicos{
-    height: 18.75rem;
-    position: absolute;
-    right: 20px;
-}*/
 .header-index {
     display: flex;
     background-image: url(../assets/header.jpg);
-    padding: .625rem 1.875rem;
-    gap: 3.125rem;
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -77,16 +70,47 @@ p{
     justify-content: flex-end;
 }
 .medicos{
-    height: 13.875rem;
+    display: flex;
+    position: relative;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1440px) {
     .header-index {
         background-image: url(../assets/header.jpg);
     }
-
+}
+@media (max-width: 1320px) {
+    .header-index {
+        background-image: url(../assets/header.jpg);
+    }
+}
+@media (max-width: 1024px) {
+    .header-index {
+        background-image: url(../assets/header.jpg);
+    }
 }
 
+@media (max-width: 375px) {
+    .header-index {
+        background-image: url(../assets/header.jpg);
+    }
+}
+
+@media (max-width: 340px) {
+    .header-index {
+        background-image: url(../assets/header.jpg);
+    }
+    .medicos{
+        display: flex;
+        position: relative;
+    }
+}
+
+/*@media (max-width: 320px) {
+    .header-index {
+        background-image: url(../assets/header.jpg);
+    }
+}
 /*.header-index{
     background-image: url(../assets/header.jpg);
     width: 100%;
