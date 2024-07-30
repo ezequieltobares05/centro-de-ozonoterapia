@@ -77,32 +77,36 @@ p{
 @media (max-width: 1440px) {
     .header-index {
         background-image: url(../assets/header.jpg);
-    }
-}
-@media (max-width: 1320px) {
-    .header-index {
-        background-image: url(../assets/header.jpg);
-    }
-}
-@media (max-width: 1024px) {
-    .header-index {
-        background-image: url(../assets/header.jpg);
+        width: 100%;
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1024px) {
     .header-index {
         background-image: url(../assets/header.jpg);
+        width: 64rem;
+    }
+    .div-medicos{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .medicos{
+        display: flex;
+        position: relative;
+    }
+}
+
+@media (max-width: 420px) {
+    .header-index {
+        background-image: url(../assets/header.jpg);
+        width: 100%;
     }
 }
 
 @media (max-width: 340px) {
     .header-index {
         background-image: url(../assets/header.jpg);
-    }
-    .medicos{
-        display: flex;
-        position: relative;
+        width: 100%;
     }
 }
 
